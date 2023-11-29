@@ -92,3 +92,79 @@ text-align: center;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
+
+.lieux {
+    border: 2px solid ;
+    border-radius: 5px;
+    background-color: turquoise;
+}
+
+.lieux .border {
+    position: relative;
+}
+
+.lieux img {
+    width: 100%;
+    height: auto;
+    filter: brightness(50%);
+}
+
+.lieux h3 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    margin: 0;
+    color: #fff;
+    font-size: 25px;
+}
+
+.lieux p {
+    padding: 8px;
+    margin: 0;
+    color: black;
+}
+
+iframe {
+    width: 100%;
+    height:500px ;
+}
+
+footer {
+    color: black;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+  
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    color: black;
+    font-size: 30px;
+}
+  
+.social-icons a:hover {
+    color: turquoise;
+}
+
+.up {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: turquoise;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.up:hover {
+    animation: skiplinkmove 0.3s ease-in-out;
+    animation-iteration-count: infinite;
+}

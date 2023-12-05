@@ -23,6 +23,7 @@ ul {
 
 li {
     margin: 0 10px;
+<<<<<<< Updated upstream
 }
 
 .nav button {
@@ -37,7 +38,9 @@ button:hover {
     background-color: mediumturquoise;
     color: #fff;
 }
->>>>>>>
+=======
+}
+>>>>>>> Stashed changes
 a {
     text-decoration: none; 
     color: black;
@@ -88,6 +91,7 @@ text-align: center;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+<<<<<<< HEAD
 }
 
 .lieux {
@@ -222,6 +226,7 @@ footer {
 
 .button-container button {
     background-color: #fff;
+    padding: 10px;
 }
 
 .project {
@@ -231,3 +236,77 @@ footer {
     border-radius: 5px;
     margin-bottom: 10px;
 }
+.form, .message, .tourist, .sejour {
+    margin: auto;
+    max-width: 600px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form input, .tourist select, .sejour select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.age p {
+    text-align: center;
+}
+
+.voyage p {
+    text-align: center;
+}
+
+
+.age input, .voyage input{
+    margin-bottom: 10px;
+    margin-left: 200px;
+}
+
+.message textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+.envoyer {
+    width: 100%;
+    text-align: center;
+}
+
+.envoyer input {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.envoyer .re {
+    background-color: grey;
+    color: white;
+}
+
+.envoyer input:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid turquoise;
+}
+
+
+
+=======
+=======
+>>>>>>> Stashed changes
+}
+>>>>>>> 32036340780dffcf20f9bec9a1dd77787829bc50

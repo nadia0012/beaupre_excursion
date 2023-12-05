@@ -23,6 +23,7 @@ ul {
 
 li {
     margin: 0 10px;
+<<<<<<< Updated upstream
 }
 
 .nav button {
@@ -37,7 +38,9 @@ button:hover {
     background-color: mediumturquoise;
     color: #fff;
 }
->>>>>>>
+=======
+}
+>>>>>>> Stashed changes
 a {
     text-decoration: none; 
     color: black;
@@ -88,146 +91,6 @@ text-align: center;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-}
-
-.lieux {
-    border: 2px solid ;
-    border-radius: 5px;
-    background-color: turquoise;
-}
-
-.lieux .border {
-    position: relative;
-}
-
-.lieux img {
-    width: 100%;
-    height: auto;
-    filter: brightness(50%);
-}
-
-.lieux h3 {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 10px;
-    margin: 0;
-    color: #fff;
-    font-size: 25px;
-}
-
-.lieux p {
-    padding: 8px;
-    margin: 0;
-    color: black;
-}
-
-iframe {
-    width: 100%;
-    height:500px ;
-}
-
-footer {
-    color: black;
-    text-align: center;
-    padding: 20px;
-    position: relative;
-}
-  
-.social-icons {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-
-.social-icons a {
-    display: inline-block;
-    margin: 0 10px;
-    color: black;
-    font-size: 30px;
-}
-  
-.social-icons a:hover {
-    color: turquoise;
-}
-
-.up {
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-    color: turquoise;
-    font-size: 50px;
-    text-decoration: none;
-}
-
-.up:hover {
-    animation: skiplinkmove 0.3s ease-in-out;
-    animation-iteration-count: infinite;
-}
-
-@keyframes skiplinkmove {
-    0% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-10px);
-    }
-    100% {
-      transform: translateY(0);
-    }
-}
-  
-.up i {
-    vertical-align: middle;
-}
-
-.titre {
-    text-align: center;
-}
-
-.titre h3 {
-    font-weight: lighter;
-}
-
-.hotels {
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
-    gap: 20px; 
-    background-color: turquoise;
-    margin-bottom: 40px;
-    border: solid black;
-    border-radius: 5px;
-}
-
-.hotel img {
-    width: 100%; 
-    height: 100%;
-}
-
-.description h3 {
-    font-size: 30px;
-}
-
-.description {
-    display: flex;
-    flex-direction: column;
-}
-
-.button-container {
-    display: flex;
-    align-items: center; 
-    margin-bottom: 5px;
-}
-
-.button-container button {
-    background-color: #fff;
-}
-
-.project {
-    background-color: turquoise;
-    padding: 8px;
-    border: solid black;
-    border-radius: 5px;
-    margin-bottom: 10px;
+=======
+>>>>>>> Stashed changes
 }

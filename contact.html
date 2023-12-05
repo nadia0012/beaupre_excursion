@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/cf37d81192.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Beaupre Excurssion</title>
+</head>
+<body>
+<div class="navigation">
+    <header>
+        <div class="header">
+            <nav id="#top" class="logo">
+                <img src="images/blogo.png" alt="beaupre logo">
+            </nav>
+            <ul class="nav">
+                <li><button><a href="index.html">Accueil</a></button></li>
+                <li><button><a href="hotels.html">Nos Hotels</a></button></li>
+                <li><button><a href="propos.html">A propos</a></button></li>
+                <li><button><a href="contact.html">Contact</a></button></li>
+            </ul>
+            <div class="search">
+                <i class="fa-solid fa-heart" style="color: #ff0000;"></i>
+                <i class="fa-regular fa-user"></i>
+            </div>
+        </div>
+    </header>
+</div>
+<main>
+    <h2>Concert de l'artiste Burna Boy</h2>
+    <div class="form">
+        <!--nom Prénom-->
+        <label for="Nom"> Nom:</label>
+        <input type="text" id="Nom" name="Nom" placeholder="saisir votre nom " required>
+        <label for="Prénom"> Prénom:</label>
+        <input type="text" id="Prénom" name="Prénom" placeholder="saisir votre prénom " required>
+        <!--Adresse e-mail-->
+        <br>
+        <label for="email">Votre adresse e-mail :</label>
+        <input type="email" id="email" name="email" placeholder="Entrez votre adresse e-mail" required>
+        <!--téléphone-->
+        <br>
+        <label for="telephone">Votre numéro de téléphone :</label>
+        <input type="tel" id="telephone" name="telephone" placeholder="Entrez votre numéro" required maxlength="10">
+    </div>
+    <!--tranche d'âge-->
+    <div class="age">
+        <p>Veuillez sélectionner votre tranche d'âge:</p> <br>
+        <input type="checkbox" name="age" value="moins15" id="moins15"> <label for="moins15">Moins de 15 ans</label>
+        <br>
+        <input type="checkbox" name="age" value="medium15-25" id="medium15-25"> <label for="medium15-25">15-25 ans</label>
+        <br>
+        <input type="checkbox" name="age" value="medium25-40" id="medium25-40"> <label for="medium25-40">25-40 ans</label>
+        <br>
+        <input type="checkbox" name="age" value="plus40" id="plus40"> <label for="plus40">Plus de 40 ans</label>
+    </div>
+    <div class="tourist">
+        <label for="city">Select City:</label>
+        <select id="city" name="city">
+            <option value="city1">City 1</option>
+            <option value="city2">City 2</option>
+            <option value="city3">City 3</option>
+        </select>
+    </div>
+    <div class="sejour">
+        <label for="city">Select City:</label>
+        <select id="city" name="city">
+            <option value="city1">City 1</option>
+            <option value="city2">City 2</option>
+            <option value="city3">City 3</option>
+        </select>
+    </div>
+    <div class="voyage">
+        <p>Cochez les musiques que vous aimez le plus:</p><br>
+        <input type="radio" name="musique" id="musique1"> <label for="musique1">Last last</label><br>
+        <input type="radio" name="musique" id="musique2"> <label for="musique2">On Form</label><br>
+        <input type="radio" name="musique" id="musique3"> <label for="musique3">City Boys</label><br>
+        <input type="radio" name="musique" id="musique4"> <label for="musique4">If I'm Laying</label>
+    </div>
+    <div class="message">
+    <label for="feadback">Laissez un commentaire :</label>
+    <textarea name="feadback" id="feadback" cols="30" rows="10" placeholder="écrivez ici"></textarea>
+    </div>
+    <div class="envoyer">
+        <input type="submit" value="Soummetre">
+        <input class="re" type="submit" value="Reinitialiser">
+    </div>
+</main>
+<footer>
+    <div class="footer">
+        <div class="social-icons">
+            <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>&copy; Beaupré Excurssion 2023</p>
+        <a href="#top" class="up" >
+        <i class="fas fa-arrow-up"></i>
+        </a>
+    </div>
+</footer>
+</body>
+</html>

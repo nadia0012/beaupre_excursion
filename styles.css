@@ -308,3 +308,7 @@ footer {
     color: black;
     border: 2px solid turquoise;
 }
+
+fieldset{
+    padding: 10px;
+}

@@ -33,24 +33,26 @@
 </div>
 <main>
     <h2>Formulaire de contact</h2>
-    <div class="form">
-        <label for="Nom"> Nom et Prénom:</label>
-        <input type="text" id="Nom" name="Nom" placeholder="Saisir votre nom et prenom" required>
-        <label for="email">Votre adresse e-mail :</label>
-        <input type="email" id="email" name="email" placeholder="Entrez votre adresse e-mail" required>
-        <label for="telephone">Votre numéro de téléphone :</label>
-        <input type="tel" id="telephone" name="telephone" placeholder="Entrez votre numéro" required maxlength="10">
-    </div>
-    <div class="age">
-        <p>Sélectionner votre tranche d'âge:</p> <br>
-        <input type="checkbox" name="age" value="moins15" id="moins15"> <label for="moins15">Moins de 15 ans</label>
-        <br>
-        <input type="checkbox" name="age" value="medium15-25" id="medium15-25"> <label for="medium15-25">15-25 ans</label>
-        <br>
-        <input type="checkbox" name="age" value="medium25-40" id="medium25-40"> <label for="medium25-40">25-40 ans</label>
-        <br>
-        <input type="checkbox" name="age" value="plus40" id="plus40"> <label for="plus40">Plus de 40 ans</label>
-    </div>
+    <fieldset>
+        <div class="form">
+            <label for="Nom"> Nom et Prénom:</label>
+            <input type="text" id="Nom" name="Nom" placeholder="Saisir votre nom et prenom" required>
+            <label for="email">Votre adresse e-mail :</label>
+            <input type="email" id="email" name="email" placeholder="Entrez votre adresse e-mail" required>
+            <label for="telephone">Votre numéro de téléphone :</label>
+            <input type="tel" id="telephone" name="telephone" placeholder="Entrez votre numéro" required maxlength="10">
+        </div>
+        <div class="age">
+            <p>Sélectionner votre tranche d'âge:</p> <br>
+            <input type="checkbox" name="age" value="moins15" id="moins15"> <label for="moins15">Moins de 15 ans</label>
+            <br>
+            <input type="checkbox" name="age" value="medium15-25" id="medium15-25"> <label for="medium15-25">15-25 ans</label>
+            <br>
+            <input type="checkbox" name="age" value="medium25-40" id="medium25-40"> <label for="medium25-40">25-40 ans</label>
+            <br>
+            <input type="checkbox" name="age" value="plus40" id="plus40"> <label for="plus40">Plus de 40 ans</label>
+        </div>
+    </fieldset>
     <div class="tourist">
         <label for="lieu">Quel a été votre lieu touristique préféré?</label>
         <select id="lieu" name="lieu">

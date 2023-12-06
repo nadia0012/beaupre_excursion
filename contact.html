@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/cf37d81192.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Beaupre Excursion</title>
+</head>
+<body>
+<div class="navigation">
+    <header>
+        <div class="header">
+            <nav id="#top" class="logo">
+                <a href="index.html"><img src="images/blogo.png" alt="beaupre logo"></a>
+            </nav>
+            <ul class="nav">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="hotels.html">Nos Hôtels</a></li>
+                <li><a href="propos.html">À Propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="search">
+                <i class="fa-solid fa-heart" style="color: #ff0000;"></i>
+                <i class="fa-regular fa-user"></i>
+            </div>
+        </div>
+    </header>
+</div>
+<main>
+    <h2>Formulaire de contact</h2>
+    <div class="form">
+        <label for="Nom"> Nom et Prénom:</label>
+        <input type="text" id="Nom" name="Nom" placeholder="Saisir votre nom et prenom" required>
+        <label for="email">Votre adresse e-mail :</label>
+        <input type="email" id="email" name="email" placeholder="Entrez votre adresse e-mail" required>
+        <label for="telephone">Votre numéro de téléphone :</label>
+        <input type="tel" id="telephone" name="telephone" placeholder="Entrez votre numéro" required maxlength="10">
+    </div>
+    <div class="age">
+        <p>Sélectionner votre tranche d'âge:</p> <br>
+        <input type="checkbox" name="age" value="moins15" id="moins15"> <label for="moins15">Moins de 15 ans</label>
+        <br>
+        <input type="checkbox" name="age" value="medium15-25" id="medium15-25"> <label for="medium15-25">15-25 ans</label>
+        <br>
+        <input type="checkbox" name="age" value="medium25-40" id="medium25-40"> <label for="medium25-40">25-40 ans</label>
+        <br>
+        <input type="checkbox" name="age" value="plus40" id="plus40"> <label for="plus40">Plus de 40 ans</label>
+    </div>
+    <div class="tourist">
+        <label for="lieu">Quel a été votre lieu touristique préféré?</label>
+        <select id="lieu" name="lieu">
+            <option value="lieu1">La Basilique</option>
+            <option value="lieu2">Le Canyon</option>
+            <option value="lieu3">Le Cyclorama</option>
+            <option value="lieu4">Le Spa</option>
+            <option value="lieu5">Le Mont</option>
+            <option value="lieu6">Le Quai</option>
+        </select>
+    </div>
+    <div class="sejour">
+        <label for="hotel">Dans quel hôtel avez-vous séjourné?</label>
+        <select id="hotel" name="hotel">
+            <option value="hotel1">Auberge La Camarine</option>
+            <option value="hotel2">Le Chaleureux</option>
+            <option value="hotel3">Hébergement Mont-Ste-Anne Condos</option>
+            <option value="hotel4">Chalet familial du Plateau</option>
+            <option value="hotel5">Le 4 Saisons 3</option>
+        </select>
+    </div>
+    <div class="voyage">
+        <p>Aviez-vous une assurance voyage?</p>
+        <input type="radio" name="option" id="option1"> <label for="option1">Oui</label><br>
+        <input type="radio" name="option" id="option2"> <label for="option2">Non</label><br>
+    </div>
+    <div class="message">
+    <label for="message">Message</label>
+    <textarea name="message" id="message" cols="30" rows="10" placeholder="écrivez ici"></textarea>
+    </div>
+    <div class="envoyer">
+        <input type="submit" value="Soummetre">
+        <input class="re" type="submit" value="Reinitialiser">
+    </div>
+    <div>
+        <h2>Localisation</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d86964.35982690514!2d-70.90335499999998!3d47.06698550000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb8ca89ead85fbb%3A0xe7335921e66aed78!2zQmVhdXByw6ksIFFDLCBDYW5hZGE!5e0!3m2!1sfr!2sco!4v1701831049958!5m2!1sfr!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</main>
+<footer>
+    <div class="footer">
+        <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>&copy; Beaupré Excurssion 2023</p>
+        <a href="#top" class="up" >
+        <i class="fas fa-arrow-up"></i>
+        </a>
+    </div>
+</footer>
+</body>
+</html>
